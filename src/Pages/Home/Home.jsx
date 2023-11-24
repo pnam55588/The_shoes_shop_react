@@ -8,7 +8,7 @@ import { getProductApi } from '../../redux/reducers/productReducer';
 import { CaretLeftOutlined, CaretRightOutlined } from '@ant-design/icons'
 import { useRef } from 'react';
 import { Col, Divider, Row } from 'antd'
-
+import './home.css'
 const contentStyle = {
     paddingTop: '46px',
     margin: 0,
