@@ -10,7 +10,7 @@ const HeaderHome = () => {
         if (userLogin) {
             return <>
                 <NavLink to='/carts' className='text-white'>
-                    <img src="/img/image 8.png" alt="" /> <span className='text-white'>( {carts?.length})</span>
+                    <img src="./img/image 8.png" alt="" /> <span className='text-white'>( {carts?.length})</span>
                 </NavLink>
                 <NavLink to="/profile" className="nav-link mx-3 text-white">Hello ! {userLogin.email}</NavLink>
                 <span style={{ cursor: 'pointer', paddingRight: '15px' }} className="text-white" onClick={() => {

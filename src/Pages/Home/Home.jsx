@@ -82,9 +82,10 @@ const Home = () => {
             </Carousel>
 
             <h3 style={{background: 'linear-gradient(180deg, #F21299 0%, #1B02B5 100%)', width:'698px', height:'74px', lineHeight:'74px', paddingLeft:'25px', marginTop:'44px'}}>Product Feature</h3>
-            <Row gutter={[16,24]}>
+            <Row gutter={[16,24]} >
+            
                 {arrProduct.map((item, index) => {
-                    return <Col className='gutter-row' span={8} key={index}>
+                    return <Col className='gutter-row' span={8} key={index} xs={24} sm={24} md={12} lg={8} xl={8}>
                         <ShoesCard prod={item} />
                     </Col>
                 })}
