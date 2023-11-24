@@ -1,6 +1,5 @@
 # Link deploy
-
-[This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).](http://shoes-shop-capstone-react-cyberlearn.surge.sh/)
+https://shoes-shop-7222257bae10.herokuapp.com/
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
